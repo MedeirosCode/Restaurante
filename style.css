@@ -1,0 +1,85 @@
+body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f4; color: #333; }
+h1, h2 { color: #222; }
+.container { max-width: 600px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); }
+ul { list-style: none; padding: 0; }
+li { margin: 10px 0; background: #fff; padding: 10px; border-radius: 5px; box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); }
+.btn { display: inline-block; padding: 10px; text-decoration: none; background: #007BFF; color: white; border-radius: 5px; margin-right: 5px; }
+.btn:hover { background: #0056b3; }
+.btn-delete { background: #ff4d4d; }
+.btn-delete:hover { background: #cc0000; }
+button { border: none; cursor: pointer; padding: 10px; border-radius: 5px; }
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Cabeçalho */
+h1 {
+    color: #343a40;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Container dos botões de adicionar */
+.adicionar {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+/* Botões de adicionar */
+.adicionar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.adicionar a:hover {
+    background-color: #0056b3;
+}
+
+/* Lista de clientes */
+ul {
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+li {
+    background: rgb(4, 73, 7);
+    color:#fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+li:hover {
+    transform: scale(1.05);
+}
+
+/* Links da lista */
+li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    transition: color 0.3s;
+}
+
+li a:hover {
+    color: #007bff;
+}
