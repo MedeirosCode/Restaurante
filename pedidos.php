@@ -19,7 +19,9 @@ if (isset($_GET['delete'])) {
     header("Location: pedidos.php?id=$cliente_id");
 }
 ?>
+<link rel="stylesheet" href="style.css">
 <h1>Pedidos de <?= $cliente['nome'] ?></h1>
+
 <form method="post">
     <select name="produto_id">
         <?php foreach ($produtos as $produto) { ?>

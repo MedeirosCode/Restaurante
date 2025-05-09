@@ -8,6 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     header("Location: index.php");
 }
 ?>
+<link rel="stylesheet" href="style.css">
 <form method="post">
     <input type="text" name="nome" placeholder="Nome do Produto" required>
     <input type="number" step="0.01" name="preco" placeholder="Preço" required>
